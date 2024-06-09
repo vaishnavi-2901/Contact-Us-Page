@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main_container {
+  display: flex;
+  height: calc(100vh-72px);
+  flex-direction: column;
+  justify-content: end;
+  
+}
+
+nav {
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  font-weight: 500;
+}
